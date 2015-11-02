@@ -1,0 +1,12 @@
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\ProjectTracking.Data.dll.config
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\ProjectTracking.Data.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\ProjectTracking.Data.pdb
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\EntityFramework.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\ProjectTracking.Model.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\ProjectTracking.Model.pdb
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\EntityFramework.xml
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\obj\Debug\ProjectTracking.Data.csprojResolveAssemblyReference.cache
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\obj\Debug\ProjectTracking.Data.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Data\obj\Debug\ProjectTracking.Data.pdb

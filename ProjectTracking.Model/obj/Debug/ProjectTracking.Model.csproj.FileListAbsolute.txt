@@ -1,0 +1,4 @@
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Model\bin\Debug\ProjectTracking.Model.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Model\bin\Debug\ProjectTracking.Model.pdb
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Model\obj\Debug\ProjectTracking.Model.dll
+E:\Workspace\assignment\TMentors\ProjectTracking\ProjectTracking.Model\obj\Debug\ProjectTracking.Model.pdb

@@ -1,0 +1,94 @@
+﻿
+<button class="btn btn-primary"
+        data-toggle="modal" data-target="#newMemberModal" data-rel="tooltip" data-placement="top">
+    <i class="icon-plus icon-white"></i>
+    Add Member
+</button>
+<div class="widget-box" ng-controller="memberController">
+
+
+
+    <div class="widget-title">
+
+        <h5>Members</h5>
+        <div class="dataTables_length">
+            <label>
+                Filter By Project
+                <select id="ddlProjects" class="select2-container"
+                        ng-options="project.Name for project in projects "
+                        ng-model="selected">
+                    <option value="">-- Select Project --</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <div class="widget-content">
+        <div class="row-fluid">
+            <table class="table table-bordered data-table ">
+
+                <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th></th>
+
+                </tr>
+
+                <tr ng-repeat="item in members">
+                    <td><a ng-click="paging.openProductForm(item.MemberID)" class="cursor-pointer">{{item.MemberName}}</a></td>
+                    <td class="">{{ item.Title }}</td>
+
+
+
+                    <td>
+                        <a href="#/delete/{{item.MemberID}}" class="icon icon-trash"></a>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+
+    <!--<div ng-include="'Views/MemberCreate.html'">
+
+    </div>-->
+
+    <div class="modal fade" id="newMemberModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Add Member</h4>
+                </div>
+                <form class="form-horizontal">
+                    <div class="control-group">
+                        <label class="control-label">Name</label>
+                        <div class="controls">
+                            <input type="text" required class="form-control" id="inputName" ng-model="CreateMember.Name">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Title</label>
+                        <div class="controls">
+                            <input type="text" required class="form-control" id="inputName" ng-model="CreateMember.Title">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Project</label>
+                        <div class="controls">
+                            <select id="ddlProjects" required class="select2-container"
+                                    ng-options="project.Name for project in projects "
+                                    ng-model="selected">
+                                <option value="">-- Select Project --</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-success pull-right">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
